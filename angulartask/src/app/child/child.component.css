@@ -1,0 +1,17 @@
+p {
+    font-family: Lato;
+  }
+  
+  .example-card {
+    max-width: 700px;
+    margin: 4px;
+    height:200;
+    margin: 0 auto;
+    top: 30%;
+    left: 0%;
+  }
+  
+
+  body{
+      background-image: url('https://media5.picsearch.com/is?OZLnUwN1bDw-4adIBiP29juwUise52SlTm5KFJQRSkQ&height=191');
+  }

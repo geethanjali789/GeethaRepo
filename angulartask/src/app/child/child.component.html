@@ -1,0 +1,50 @@
+<body>
+<div>
+    <!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark cyan" [containerInside]="false">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand><strong><a class="navbar-brand" >WELCOME</a></strong></mdb-navbar-brand>
+  
+    <!-- Collapsible content -->
+    <links>
+  
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+       
+  
+        <!-- Dropdown -->
+        <li class="nav-item dropdown" dropdown>
+          <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="user"></mdb-icon> Profile<span class="caret"></span></a>
+          <div *dropdownMenu class="dropdown-menu dropdown-menu-right dropdown dropdown-primary" role="menu">
+            <a class="dropdown-item waves-light" mdbWavesEffect href=''>Log out</a>
+          </div>
+        </li>
+  
+      </ul>
+      <!-- Links -->
+    </links>
+    <!-- Collapsible content -->
+  
+  </mdb-navbar>
+  <!--/.Navbar-->
+</div><br><br>
+<mat-card class="example-card">
+	<mat-card-header>
+		<div mat-card-avatar class="example-header-image"></div>
+		<mat-card-title>Details of the form submitted</mat-card-title>
+		<mat-card-subtitle><strong>email: </strong>  {{email}}<br>
+      <strong>password: </strong>  {{password}}<br>
+      <strong>subscription: </strong>  {{  selected }}<br>
+    
+      <div style="display:none">
+      
+      <app-login #login></app-login>
+    </div></mat-card-subtitle>
+	</mat-card-header>
+</mat-card>
+ 
+</body>
+       
+
